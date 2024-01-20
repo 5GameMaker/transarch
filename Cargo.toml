@@ -11,7 +11,7 @@ authors = ["buj"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-transarch-macro = { path = "transarch-macro"}
+transarch-macro = { path = "transarch-macro", version = "0.1.0" }
 
 [workspace]
 resolver = "2"
