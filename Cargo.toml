@@ -1,0 +1,20 @@
+[package]
+name = "transarch"
+version = "0.1.0"
+edition = "2021"
+description = "Compile code for a different arch into a blob"
+license = "MIT"
+keywords = ["wasm"]
+repository = "https://github.com/5GameMaker/transarch"
+authors = ["buj"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+transarch-macro = { path = "transarch-macro"}
+
+[workspace]
+resolver = "2"
+members = [
+    "transarch-macro"
+]
