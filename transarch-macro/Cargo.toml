@@ -2,6 +2,10 @@
 name = "transarch-macro"
 version = "0.1.0"
 edition = "2021"
+description = "Macros for transarch"
+license = "MIT"
+authors = ["buj"]
+repository = "https://github.com/5GameMaker/transarch"
 
 [lib]
 proc-macro = true
